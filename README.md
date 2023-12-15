@@ -11,7 +11,8 @@ Exiba uma mensagem indicando o nome do herói e seu respectivo nível ao final d
 
 ## Faixas de Classificação que utilizei
 
-Menos de 1.000 XP: Ferro
+<li>
+<ul>>Menos de 1.000 XP: Ferro</ul
 Entre 1.001 e 2.000 XP: Bronze
 Entre 2.001 e 5.000 XP: Prata
 Entre 5.001 e 7.000 XP: Ouro
@@ -19,6 +20,8 @@ Entre 7.001 e 8.000 XP: Platina
 Entre 8.001 e 9.000 XP: Ascendente
 Entre 9.001 e 10.000 XP: Imortal
 10.001 XP ou mais: Radiante
+</li>
+
 
 ## Saída Esperada do projeto:
 

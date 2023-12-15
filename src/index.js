@@ -1,31 +1,31 @@
-let nomeHeroi = "danilo"
-let expHeroi = ""
-let nivelHeroi = 5550
+let nomeHeroi = "exemploName"
+let expHeroi = 5550
+let nivelHeroi = ""
 
 switch(true){
-    case nivelHeroi <= 1000:
-        nivelHeroi= "FERRO"
+    case expHeroi <= 1000:
+        nivelHeroi = "FERRO"
         break
-    case nivelHeroi >1001 && nivelHeroi < 2000.99:
+    case expHeroi >1001 && expHeroi < 2000:
         nivelHeroi = "BRONZE"
         break
-    case nivelHeroi >2001 && nivelHeroi <= 5000:
+    case expHeroi >2001 && expHeroi <= 5000:
         nivelHeroi = "PRATA"
         break
-    case nivelHeroi >5001 && nivelHeroi <= 7000:
+    case expHeroi >5001 && expHeroi <= 7000:
         nivelHeroi = "OURO"
         break
-    case nivelHeroi >7001 && nivelHeroi <= 8000:
+    case expHeroii >7001 && expHeroi <= 8000:
         nivelHeroi = "PLATINA"
         break
-    case nivelHeroi >8001 && nivelHeroi <= 9000:
+    case expHeroi >8001 && expHeroi <= 9000:
         nivelHeroi = "ASCENDENTE"
         break
 
-    case nivelHeroi >9001 && nivelHeroi <= 10000:
+    case expHeroi >9001 && expHeroi <= 10000:
         nivelHeroi = "IMORTAL"
         break
-    case nivelHeroi >= 10001:
+    case expHeroi >= 10001:
         nivelHeroi = "RADIENTE"
         break
 
@@ -37,6 +37,8 @@ switch(true){
       
 
 console.log("O Herói chamado "+nomeHeroi+ " atualmente está no elo: "+ nivelHeroi);
+
+
 
 
 
